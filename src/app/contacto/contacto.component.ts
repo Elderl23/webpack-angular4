@@ -7,7 +7,11 @@ import { Router } from '@angular/router';
     templateUrl: 'template/contacto.html',
 })
 
-export class ContactoComponent{
+export class ContactoComponent implements OnInit{
+    ngOnInit(): void {
+        console.log("soy contacto");
+        
+    }
 }
 
 

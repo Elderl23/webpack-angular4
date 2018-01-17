@@ -9,41 +9,82 @@
 import * as i0 from '@angular/core';
 import * as i1 from '../../../src/app/app.module';
 import * as i2 from '../../../src/app/app.component';
-import * as i3 from './app.component.ngfactory';
-import * as i4 from '@angular/common';
-import * as i5 from '@angular/platform-browser';
+import * as i3 from './dashboard/dash.component.ngfactory';
+import * as i4 from './contacto/contacto.component.ngfactory';
+import * as i5 from './app.component.ngfactory';
+import * as i6 from '@angular/common';
+import * as i7 from '@angular/platform-browser';
+import * as i8 from '@angular/forms';
+import * as i9 from '@angular/router';
+import * as i10 from '../../../src/app/dashboard/dash.component';
+import * as i11 from '../../../src/app/contacto/contacto.component';
+import * as i12 from '../../../src/app/dashboard/dash-routing.module';
+import * as i13 from '../../../src/app/dashboard/dash.module';
+import * as i14 from '../../../src/app/contacto/contacto-routing.module';
+import * as i15 from '../../../src/app/contacto/contacto.module';
 export const AppModuleNgFactory:i0.NgModuleFactory<i1.AppModule> = i0.ɵcmf(i1.AppModule,
     [i2.AppComponent],(_l:any) => {
       return i0.ɵmod([i0.ɵmpd(512,i0.ComponentFactoryResolver,i0.ɵCodegenComponentFactoryResolver,
-          [[8,[i3.AppComponentNgFactory]],[3,i0.ComponentFactoryResolver],i0.NgModuleRef]),
-          i0.ɵmpd(5120,i0.LOCALE_ID,i0.ɵm,[[3,i0.LOCALE_ID]]),i0.ɵmpd(4608,i4.NgLocalization,
-              i4.NgLocaleLocalization,[i0.LOCALE_ID]),i0.ɵmpd(4608,i0.Compiler,i0.Compiler,
-              ([] as any[])),i0.ɵmpd(5120,i0.APP_ID,i0.ɵf,([] as any[])),i0.ɵmpd(5120,
-              i0.IterableDiffers,i0.ɵk,([] as any[])),i0.ɵmpd(5120,i0.KeyValueDiffers,
-              i0.ɵl,([] as any[])),i0.ɵmpd(4608,i5.DomSanitizer,i5.ɵe,[i4.DOCUMENT]),
-          i0.ɵmpd(6144,i0.Sanitizer,(null as any),[i5.DomSanitizer]),i0.ɵmpd(4608,
-              i5.HAMMER_GESTURE_CONFIG,i5.HammerGestureConfig,([] as any[])),i0.ɵmpd(5120,
-              i5.EVENT_MANAGER_PLUGINS,(p0_0:any,p1_0:any,p2_0:any,p2_1:any) => {
-                return [new i5.ɵDomEventsPlugin(p0_0),new i5.ɵKeyEventsPlugin(p1_0),
-                    new i5.ɵHammerGesturesPlugin(p2_0,p2_1)];
-              },[i4.DOCUMENT,i4.DOCUMENT,i4.DOCUMENT,i5.HAMMER_GESTURE_CONFIG]),i0.ɵmpd(4608,
-              i5.EventManager,i5.EventManager,[i5.EVENT_MANAGER_PLUGINS,i0.NgZone]),
-          i0.ɵmpd(135680,i5.ɵDomSharedStylesHost,i5.ɵDomSharedStylesHost,[i4.DOCUMENT]),
-          i0.ɵmpd(4608,i5.ɵDomRendererFactory2,i5.ɵDomRendererFactory2,[i5.EventManager,
-              i5.ɵDomSharedStylesHost]),i0.ɵmpd(6144,i0.RendererFactory2,(null as any),
-              [i5.ɵDomRendererFactory2]),i0.ɵmpd(6144,i5.ɵSharedStylesHost,(null as any),
-              [i5.ɵDomSharedStylesHost]),i0.ɵmpd(4608,i0.Testability,i0.Testability,
-              [i0.NgZone]),i0.ɵmpd(4608,i5.Meta,i5.Meta,[i4.DOCUMENT]),i0.ɵmpd(4608,
-              i5.Title,i5.Title,[i4.DOCUMENT]),i0.ɵmpd(512,i4.CommonModule,i4.CommonModule,
-              ([] as any[])),i0.ɵmpd(1024,i0.ErrorHandler,i5.ɵa,([] as any[])),i0.ɵmpd(1024,
-              i0.APP_INITIALIZER,(p0_0:any,p0_1:any) => {
-                return [i5.ɵc(p0_0,p0_1)];
-              },[[2,i5.NgProbeToken],[2,i0.NgProbeToken]]),i0.ɵmpd(512,i0.ApplicationInitStatus,
+          [[8,[i3.DashboardComponentNgFactory,i4.ContactoComponentNgFactory,i5.AppComponentNgFactory]],
+              [3,i0.ComponentFactoryResolver],i0.NgModuleRef]),i0.ɵmpd(5120,i0.LOCALE_ID,
+          i0.ɵm,[[3,i0.LOCALE_ID]]),i0.ɵmpd(4608,i6.NgLocalization,i6.NgLocaleLocalization,
+          [i0.LOCALE_ID]),i0.ɵmpd(5120,i0.APP_ID,i0.ɵf,([] as any[])),i0.ɵmpd(5120,
+          i0.IterableDiffers,i0.ɵk,([] as any[])),i0.ɵmpd(5120,i0.KeyValueDiffers,
+          i0.ɵl,([] as any[])),i0.ɵmpd(4608,i7.DomSanitizer,i7.ɵe,[i6.DOCUMENT]),i0.ɵmpd(6144,
+          i0.Sanitizer,(null as any),[i7.DomSanitizer]),i0.ɵmpd(4608,i7.HAMMER_GESTURE_CONFIG,
+          i7.HammerGestureConfig,([] as any[])),i0.ɵmpd(5120,i7.EVENT_MANAGER_PLUGINS,
+          (p0_0:any,p1_0:any,p2_0:any,p2_1:any) => {
+            return [new i7.ɵDomEventsPlugin(p0_0),new i7.ɵKeyEventsPlugin(p1_0),new i7.ɵHammerGesturesPlugin(p2_0,
+                p2_1)];
+          },[i6.DOCUMENT,i6.DOCUMENT,i6.DOCUMENT,i7.HAMMER_GESTURE_CONFIG]),i0.ɵmpd(4608,
+          i7.EventManager,i7.EventManager,[i7.EVENT_MANAGER_PLUGINS,i0.NgZone]),i0.ɵmpd(135680,
+          i7.ɵDomSharedStylesHost,i7.ɵDomSharedStylesHost,[i6.DOCUMENT]),i0.ɵmpd(4608,
+          i7.ɵDomRendererFactory2,i7.ɵDomRendererFactory2,[i7.EventManager,i7.ɵDomSharedStylesHost]),
+          i0.ɵmpd(6144,i0.RendererFactory2,(null as any),[i7.ɵDomRendererFactory2]),
+          i0.ɵmpd(6144,i7.ɵSharedStylesHost,(null as any),[i7.ɵDomSharedStylesHost]),
+          i0.ɵmpd(4608,i0.Testability,i0.Testability,[i0.NgZone]),i0.ɵmpd(4608,i7.Meta,
+              i7.Meta,[i6.DOCUMENT]),i0.ɵmpd(4608,i7.Title,i7.Title,[i6.DOCUMENT]),
+          i0.ɵmpd(4608,i8.ɵi,i8.ɵi,([] as any[])),i0.ɵmpd(5120,i9.ActivatedRoute,i9.ɵf,
+              [i9.Router]),i0.ɵmpd(4608,i9.NoPreloading,i9.NoPreloading,([] as any[])),
+          i0.ɵmpd(6144,i9.PreloadingStrategy,(null as any),[i9.NoPreloading]),i0.ɵmpd(135680,
+              i9.RouterPreloader,i9.RouterPreloader,[i9.Router,i0.NgModuleFactoryLoader,
+                  i0.Compiler,i0.Injector,i9.PreloadingStrategy]),i0.ɵmpd(4608,i9.PreloadAllModules,
+              i9.PreloadAllModules,([] as any[])),i0.ɵmpd(5120,i9.ROUTER_INITIALIZER,
+              i9.ɵi,[i9.ɵg]),i0.ɵmpd(5120,i0.APP_BOOTSTRAP_LISTENER,(p0_0:any) => {
+            return [p0_0];
+          },[i9.ROUTER_INITIALIZER]),i0.ɵmpd(512,i6.CommonModule,i6.CommonModule,([] as any[])),
+          i0.ɵmpd(1024,i0.ErrorHandler,i7.ɵa,([] as any[])),i0.ɵmpd(1024,i0.NgProbeToken,
+              () => {
+                return [i9.ɵb()];
+              },([] as any[])),i0.ɵmpd(512,i9.ɵg,i9.ɵg,[i0.Injector]),i0.ɵmpd(1024,
+              i0.APP_INITIALIZER,(p0_0:any,p0_1:any,p1_0:any) => {
+                return [i7.ɵc(p0_0,p0_1),i9.ɵh(p1_0)];
+              },[[2,i7.NgProbeToken],[2,i0.NgProbeToken],i9.ɵg]),i0.ɵmpd(512,i0.ApplicationInitStatus,
               i0.ApplicationInitStatus,[[2,i0.APP_INITIALIZER]]),i0.ɵmpd(131584,i0.ɵe,
               i0.ɵe,[i0.NgZone,i0.ɵConsole,i0.Injector,i0.ErrorHandler,i0.ComponentFactoryResolver,
                   i0.ApplicationInitStatus]),i0.ɵmpd(2048,i0.ApplicationRef,(null as any),
               [i0.ɵe]),i0.ɵmpd(512,i0.ApplicationModule,i0.ApplicationModule,[i0.ApplicationRef]),
-          i0.ɵmpd(512,i5.BrowserModule,i5.BrowserModule,[[3,i5.BrowserModule]]),i0.ɵmpd(512,
-              i1.AppModule,i1.AppModule,([] as any[]))]);
+          i0.ɵmpd(512,i7.BrowserModule,i7.BrowserModule,[[3,i7.BrowserModule]]),i0.ɵmpd(1024,
+              i9.ɵa,i9.ɵd,[[3,i9.Router]]),i0.ɵmpd(512,i9.UrlSerializer,i9.DefaultUrlSerializer,
+              ([] as any[])),i0.ɵmpd(512,i9.ChildrenOutletContexts,i9.ChildrenOutletContexts,
+              ([] as any[])),i0.ɵmpd(256,i9.ROUTER_CONFIGURATION,{useHash:true},([] as any[])),
+          i0.ɵmpd(1024,i6.LocationStrategy,i9.ɵc,[i6.PlatformLocation,[2,i6.APP_BASE_HREF],
+              i9.ROUTER_CONFIGURATION]),i0.ɵmpd(512,i6.Location,i6.Location,[i6.LocationStrategy]),
+          i0.ɵmpd(512,i0.Compiler,i0.Compiler,([] as any[])),i0.ɵmpd(512,i0.NgModuleFactoryLoader,
+              i0.SystemJsNgModuleLoader,[i0.Compiler,[2,i0.SystemJsNgModuleLoaderConfig]]),
+          i0.ɵmpd(1024,i9.ROUTES,() => {
+            return [[{path:'dashboard',component:i10.DashboardComponent}],[{path:'contacto',
+                component:i11.ContactoComponent}],[{path:'',redirectTo:'dashboard',
+                pathMatch:'full'},{path:'dashboard',component:i10.DashboardComponent}]];
+          },([] as any[])),i0.ɵmpd(1024,i9.Router,i9.ɵe,[i0.ApplicationRef,i9.UrlSerializer,
+              i9.ChildrenOutletContexts,i6.Location,i0.Injector,i0.NgModuleFactoryLoader,
+              i0.Compiler,i9.ROUTES,i9.ROUTER_CONFIGURATION,[2,i9.UrlHandlingStrategy],
+              [2,i9.RouteReuseStrategy]]),i0.ɵmpd(512,i9.RouterModule,i9.RouterModule,
+              [[2,i9.ɵa],[2,i9.Router]]),i0.ɵmpd(512,i8.ɵba,i8.ɵba,([] as any[])),
+          i0.ɵmpd(512,i8.FormsModule,i8.FormsModule,([] as any[])),i0.ɵmpd(512,i12.DashRoutingModule,
+              i12.DashRoutingModule,([] as any[])),i0.ɵmpd(512,i13.DashboardModule,
+              i13.DashboardModule,([] as any[])),i0.ɵmpd(512,i14.ContactoRouting,i14.ContactoRouting,
+              ([] as any[])),i0.ɵmpd(512,i15.ContactoModule,i15.ContactoModule,([] as any[])),
+          i0.ɵmpd(512,i1.AppModule,i1.AppModule,([] as any[]))]);
     });
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL3Jlc3RyYWRhei9hbmd1bGFyLXdlYnBhY2svd2VicGFjay1hbmd1bGFyNC9zcmMvYXBwL2FwcC5tb2R1bGUubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vVXNlcnMvcmVzdHJhZGF6L2FuZ3VsYXItd2VicGFjay93ZWJwYWNrLWFuZ3VsYXI0L3NyYy9hcHAvYXBwLm1vZHVsZS50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIgIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7In0=
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL3Jlc3RyYWRhei9hbmd1bGFyLXdlYnBhY2svd2VicGFjay1hbmd1bGFyNC9zcmMvYXBwL2FwcC5tb2R1bGUubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vVXNlcnMvcmVzdHJhZGF6L2FuZ3VsYXItd2VicGFjay93ZWJwYWNrLWFuZ3VsYXI0L3NyYy9hcHAvYXBwLm1vZHVsZS50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIgIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsifQ==

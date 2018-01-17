@@ -6,12 +6,15 @@ var helpers = require('./helpers');
 
 const ENV = (process.env.NODE_ENV = process.env.ENV = 'production');
 
+
+const { WebpackWarPlugin } = require("webpack-war-plugin");
+
 module.exports = webpackMerge(commonConfig, {
     devtool: 'source-map',
 
     output: {
         path: helpers.root('dist'),
-        publicPath: '/',
+        publicPath: 'webpack/',
         filename: '[name].bundle.js',
         chunkFilename: '[id].chunk.js'
     },
@@ -27,6 +30,9 @@ module.exports = webpackMerge(commonConfig, {
             },
             sourceMap: false
         }),
+         new WebpackWarPlugin({
+            archiveName: "webpack"
+        }),
         new ExtractTextPlugin('[name].[hash].css'),
         new webpack.DefinePlugin({
             'process.env': {
@@ -37,6 +43,8 @@ module.exports = webpackMerge(commonConfig, {
             htmlLoader: {
                 minimize: false // workaround for ng2
             }
-        })
+        }),
+
+       
     ]
 });
