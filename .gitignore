@@ -1,0 +1,6 @@
+node_modules
+/dot-github
+/dist
+
+.DS_Store
+.babelrc
