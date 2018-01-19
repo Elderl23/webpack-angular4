@@ -14,7 +14,7 @@ module.exports = webpackMerge(commonConfig, {
 
     output: {
         path: helpers.root('dist'),
-        publicPath: 'webpack',
+        publicPath: 'angularproyect',
         filename: '[name].bundle.js',
         chunkFilename: '[id].chunk.js'
     },
@@ -31,7 +31,13 @@ module.exports = webpackMerge(commonConfig, {
             sourceMap: false
         }),
          new WebpackWarPlugin({
-            archiveName: "webpack"
+            archiveName: "angularproyect",
+            webInf: 'config/web.xml',
+            additionalElemens: [
+                { path: 'context/context.xml', destPath: 'config/META-INF/context.xml'},
+                // { path: 'package.json' },
+                // { path: 'images', destPath: 'assets/images' }
+            ]
         }),
         new ExtractTextPlugin('[name].[hash].css'),
         new webpack.DefinePlugin({

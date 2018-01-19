@@ -1,12 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { GLOBAL } from './services/global';
 
 @Component({
-  selector: 'my-app',
+	selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
-  constructor() {}
+export class AppComponent {
+	public title = 'Productos Angular';
+	public header_color: string;
 
-  ngOnInit() {}
+	constructor() {
+		this.header_color = GLOBAL.header_color;
+	}
 }

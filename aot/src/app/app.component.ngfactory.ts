@@ -9,27 +9,131 @@
 import * as i0 from './app.component.css.shim.ngstyle';
 import * as i1 from '@angular/core';
 import * as i2 from '@angular/router';
-import * as i3 from '../../../src/app/app.component';
+import * as i3 from '@angular/common';
+import * as i4 from '../../../src/app/app.component';
 const styles_AppComponent:any[] = [i0.styles];
 export const RenderType_AppComponent:i1.RendererType2 = i1.ɵcrt({encapsulation:0,styles:styles_AppComponent,
     data:{}});
 export function View_AppComponent_0(_l:any):i1.ɵViewDefinition {
-  return i1.ɵvid(0,[(_l()(),i1.ɵeld(16777216,(null as any),(null as any),1,'router-outlet',
-      ([] as any[]),(null as any),(null as any),(null as any),(null as any),(null as any))),
+  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),58,'div',[['class',
+      'col-lg-10 col-lg-offset-1'],['id','content']],(null as any),(null as any),(null as any),
+      (null as any),(null as any))),(_l()(),i1.ɵted((null as any),['\n	'])),(_l()(),
+      i1.ɵeld(0,(null as any),(null as any),4,'header',[['class','col-lg-12'],['id',
+          'header']],[[4,'background',(null as any)]],(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),
+      i1.ɵeld(0,(null as any),(null as any),1,'h1',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
+      ['\n			','\n		'])),(_l()(),i1.ɵted((null as any),['\n	'])),(_l()(),i1.ɵted((null as any),
+      ['\n	'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),36,'nav',[['class','col-lg-12'],
+      ['id','nav']],(null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+          33,'ul',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i1.ɵted((null as any),['\n			'])),(_l()(),i1.ɵeld(0,
+          (null as any),(null as any),8,'li',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i1.ɵeld(0,(null as any),
+          (null as any),7,'a',([] as any[]),[[1,'target',0],[8,'href',4]],[[(null as any),
+              'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>i1.ɵnov(_v,14).onClick($event.button,$event.ctrlKey,
+                  $event.metaKey,$event.shiftKey)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },(null as any),(null as any))),i1.ɵdid(671744,[[2,4]],0,i2.RouterLinkWithHref,
+          [i2.Router,i2.ActivatedRoute,i3.LocationStrategy],{routerLink:[0,'routerLink']},
+          (null as any)),i1.ɵpad(1),i1.ɵdid(1720320,(null as any),2,i2.RouterLinkActive,
+          [i2.Router,i1.ElementRef,i1.Renderer,i1.ChangeDetectorRef],{routerLinkActive:[0,
+              'routerLinkActive']},(null as any)),i1.ɵqud(603979776,1,{links:1}),i1.ɵqud(603979776,
+          2,{linksWithHrefs:1}),i1.ɵpad(1),(_l()(),i1.ɵted((null as any),['Home'])),
+      (_l()(),i1.ɵted((null as any),['\n			'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+          8,'li',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i1.ɵeld(0,(null as any),(null as any),7,'a',([] as any[]),
+          [[1,'target',0],[8,'href',4]],[[(null as any),'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>i1.ɵnov(_v,24).onClick($event.button,$event.ctrlKey,
+                  $event.metaKey,$event.shiftKey)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },(null as any),(null as any))),i1.ɵdid(671744,[[4,4]],0,i2.RouterLinkWithHref,
+          [i2.Router,i2.ActivatedRoute,i3.LocationStrategy],{routerLink:[0,'routerLink']},
+          (null as any)),i1.ɵpad(1),i1.ɵdid(1720320,(null as any),2,i2.RouterLinkActive,
+          [i2.Router,i1.ElementRef,i1.Renderer,i1.ChangeDetectorRef],{routerLinkActive:[0,
+              'routerLinkActive']},(null as any)),i1.ɵqud(603979776,3,{links:1}),i1.ɵqud(603979776,
+          4,{linksWithHrefs:1}),i1.ɵpad(1),(_l()(),i1.ɵted((null as any),['Productos'])),
+      (_l()(),i1.ɵted((null as any),['\n			'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+          10,'li',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i1.ɵted((null as any),['\n				'])),(_l()(),i1.ɵeld(0,
+          (null as any),(null as any),7,'a',([] as any[]),[[1,'target',0],[8,'href',
+              4]],[[(null as any),'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>i1.ɵnov(_v,35).onClick($event.button,$event.ctrlKey,
+                  $event.metaKey,$event.shiftKey)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },(null as any),(null as any))),i1.ɵdid(671744,[[6,4]],0,i2.RouterLinkWithHref,
+          [i2.Router,i2.ActivatedRoute,i3.LocationStrategy],{routerLink:[0,'routerLink']},
+          (null as any)),i1.ɵpad(1),i1.ɵdid(1720320,(null as any),2,i2.RouterLinkActive,
+          [i2.Router,i1.ElementRef,i1.Renderer,i1.ChangeDetectorRef],{routerLinkActive:[0,
+              'routerLinkActive']},(null as any)),i1.ɵqud(603979776,5,{links:1}),i1.ɵqud(603979776,
+          6,{linksWithHrefs:1}),i1.ɵpad(1),(_l()(),i1.ɵted((null as any),['\n					Crear producto\n				'])),
+      (_l()(),i1.ɵted((null as any),['\n			'])),(_l()(),i1.ɵted((null as any),['\n		'])),
+      (_l()(),i1.ɵted((null as any),['\n	'])),(_l()(),i1.ɵted((null as any),['\n	'])),
+      (_l()(),i1.ɵeld(0,(null as any),(null as any),5,'section',[['class','col-lg-12'],
+          ['id','main']],(null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),i1.ɵted((null as any),['\n		'])),
+      (_l()(),i1.ɵeld(16777216,(null as any),(null as any),1,'router-outlet',([] as any[]),
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
       i1.ɵdid(212992,(null as any),0,i2.RouterOutlet,[i2.ChildrenOutletContexts,i1.ViewContainerRef,
           i1.ComponentFactoryResolver,[8,(null as any)],i1.ChangeDetectorRef],(null as any),
-          (null as any))],(_ck,_v) => {
-    _ck(_v,1,0);
-  },(null as any));
+          (null as any)),(_l()(),i1.ɵted((null as any),['\n	'])),(_l()(),i1.ɵted((null as any),
+          ['\n	'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),4,'footer',[['class',
+          'col-lg-12'],['id','footer']],(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i1.ɵted((null as any),['\n		'])),(_l()(),
+          i1.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),(null as any),
+              (null as any),(null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
+          ['Curso de Angular 4 - diegorys.es'])),(_l()(),i1.ɵted((null as any),['\n	'])),
+      (_l()(),i1.ɵted((null as any),['\n']))],(_ck,_v) => {
+    const currVal_4:any = _ck(_v,15,0,'/home');
+    _ck(_v,14,0,currVal_4);
+    const currVal_5:any = _ck(_v,19,0,'activado');
+    _ck(_v,16,0,currVal_5);
+    const currVal_8:any = _ck(_v,25,0,'/productos');
+    _ck(_v,24,0,currVal_8);
+    const currVal_9:any = _ck(_v,29,0,'activado');
+    _ck(_v,26,0,currVal_9);
+    const currVal_12:any = _ck(_v,36,0,'/crear-producto');
+    _ck(_v,35,0,currVal_12);
+    const currVal_13:any = _ck(_v,40,0,'activado');
+    _ck(_v,37,0,currVal_13);
+    _ck(_v,50,0);
+  },(_ck,_v) => {
+    var _co:i4.AppComponent = _v.component;
+    const currVal_0:any = _co.header_color;
+    _ck(_v,2,0,currVal_0);
+    const currVal_1:any = _co.title;
+    _ck(_v,5,0,currVal_1);
+    const currVal_2:any = i1.ɵnov(_v,14).target;
+    const currVal_3:any = i1.ɵnov(_v,14).href;
+    _ck(_v,13,0,currVal_2,currVal_3);
+    const currVal_6:any = i1.ɵnov(_v,24).target;
+    const currVal_7:any = i1.ɵnov(_v,24).href;
+    _ck(_v,23,0,currVal_6,currVal_7);
+    const currVal_10:any = i1.ɵnov(_v,35).target;
+    const currVal_11:any = i1.ɵnov(_v,35).href;
+    _ck(_v,34,0,currVal_10,currVal_11);
+  });
 }
 export function View_AppComponent_Host_0(_l:any):i1.ɵViewDefinition {
   return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'my-app',([] as any[]),
       (null as any),(null as any),(null as any),View_AppComponent_0,RenderType_AppComponent)),
-      i1.ɵdid(114688,(null as any),0,i3.AppComponent,([] as any[]),(null as any),(null as any))],
-      (_ck,_v) => {
-        _ck(_v,1,0);
-      },(null as any));
+      i1.ɵdid(49152,(null as any),0,i4.AppComponent,([] as any[]),(null as any),(null as any))],
+      (null as any),(null as any));
 }
-export const AppComponentNgFactory:i1.ComponentFactory<i3.AppComponent> = i1.ɵccf('my-app',
-    i3.AppComponent,View_AppComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL3Jlc3RyYWRhei9hbmd1bGFyLXdlYnBhY2svd2VicGFjay1hbmd1bGFyNC9zcmMvYXBwL2FwcC5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vVXNlcnMvcmVzdHJhZGF6L2FuZ3VsYXItd2VicGFjay93ZWJwYWNrLWFuZ3VsYXI0L3NyYy9hcHAvYXBwLmNvbXBvbmVudC50cyIsIm5nOi8vL1VzZXJzL3Jlc3RyYWRhei9hbmd1bGFyLXdlYnBhY2svd2VicGFjay1hbmd1bGFyNC9zcmMvYXBwL2FwcC5jb21wb25lbnQuaHRtbCIsIm5nOi8vL1VzZXJzL3Jlc3RyYWRhei9hbmd1bGFyLXdlYnBhY2svd2VicGFjay1hbmd1bGFyNC9zcmMvYXBwL2FwcC5jb21wb25lbnQudHMuQXBwQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPHJvdXRlci1vdXRsZXQ+PC9yb3V0ZXItb3V0bGV0PiIsIjxteS1hcHA+PC9teS1hcHA+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7OztvQkNBQTtNQUFBO2FBQUE7c0NBQUE7VUFBQTtJQUFBOzs7O29CQ0FBO01BQUE7YUFBQTs7UUFBQTs7OzsifQ==
+export const AppComponentNgFactory:i1.ComponentFactory<i4.AppComponent> = i1.ɵccf('my-app',
+    i4.AppComponent,View_AppComponent_Host_0,{},{},([] as any[]));
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL3Jlc3RyYWRhei9hbmd1bGFyLXdlYnBhY2svd2VicGFjay1hbmd1bGFyNC9zcmMvYXBwL2FwcC5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vVXNlcnMvcmVzdHJhZGF6L2FuZ3VsYXItd2VicGFjay93ZWJwYWNrLWFuZ3VsYXI0L3NyYy9hcHAvYXBwLmNvbXBvbmVudC50cyIsIm5nOi8vL1VzZXJzL3Jlc3RyYWRhei9hbmd1bGFyLXdlYnBhY2svd2VicGFjay1hbmd1bGFyNC9zcmMvYXBwL2FwcC5jb21wb25lbnQuaHRtbCIsIm5nOi8vL1VzZXJzL3Jlc3RyYWRhei9hbmd1bGFyLXdlYnBhY2svd2VicGFjay1hbmd1bGFyNC9zcmMvYXBwL2FwcC5jb21wb25lbnQudHMuQXBwQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGRpdiBpZD1cImNvbnRlbnRcIiBjbGFzcz1cImNvbC1sZy0xMCBjb2wtbGctb2Zmc2V0LTFcIj5cblx0PGhlYWRlciBpZD1cImhlYWRlclwiIGNsYXNzPVwiY29sLWxnLTEyXCIgW3N0eWxlLmJhY2tncm91bmRdPVwiaGVhZGVyX2NvbG9yXCI+XG5cdFx0PGgxPlxuXHRcdFx0e3t0aXRsZX19XG5cdFx0PC9oMT5cblx0PC9oZWFkZXI+XG5cdDxuYXYgaWQ9XCJuYXZcIiBjbGFzcz1cImNvbC1sZy0xMlwiPlxuXHRcdDx1bD5cblx0XHRcdDxsaT48YSBbcm91dGVyTGlua109XCJbJy9ob21lJ11cIiBbcm91dGVyTGlua0FjdGl2ZV09XCJbJ2FjdGl2YWRvJ11cIj5Ib21lPC9hPjwvbGk+XG5cdFx0XHQ8bGk+PGEgW3JvdXRlckxpbmtdPVwiWycvcHJvZHVjdG9zJ11cIiBbcm91dGVyTGlua0FjdGl2ZV09XCJbJ2FjdGl2YWRvJ11cIj5Qcm9kdWN0b3M8L2E+PC9saT5cblx0XHRcdDxsaT5cblx0XHRcdFx0PGEgW3JvdXRlckxpbmtdPVwiWycvY3JlYXItcHJvZHVjdG8nXVwiIFtyb3V0ZXJMaW5rQWN0aXZlXT1cIlsnYWN0aXZhZG8nXVwiPlxuXHRcdFx0XHRcdENyZWFyIHByb2R1Y3RvXG5cdFx0XHRcdDwvYT5cblx0XHRcdDwvbGk+XG5cdFx0PC91bD5cblx0PC9uYXY+XG5cdDxzZWN0aW9uIGlkPVwibWFpblwiIGNsYXNzPVwiY29sLWxnLTEyXCI+XG5cdFx0PCEtLSBDb21wb25lbnRlIGFjdHVhbCAtLT5cblx0XHQ8cm91dGVyLW91dGxldD48L3JvdXRlci1vdXRsZXQ+XG5cdDwvc2VjdGlvbj5cblx0PGZvb3RlciBpZD1cImZvb3RlclwiIGNsYXNzPVwiY29sLWxnLTEyXCI+XG5cdFx0PHA+Q3Vyc28gZGUgQW5ndWxhciA0IC0gZGllZ29yeXMuZXM8L3A+XG5cdDwvZm9vdGVyPlxuPC9kaXY+IiwiPG15LWFwcD48L215LWFwcD4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7OztvQkNBQTtNQUFBO01BQUEsOEJBQW9ELHdDQUNuRDthQUFBO1VBQUE7VUFBQSw4QkFBd0UseUNBQ3ZFO2FBQUE7VUFBQSw0Q0FBSTtNQUFBLG1CQUVDLHdDQUNHO01BQUEsVUFDVDtNQUFBO01BQWdDLHlDQUMvQjtVQUFBO1VBQUEsZ0JBQUksMENBQ0g7VUFBQTtVQUFBLDRDQUFJO1VBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtrQkFBQTtjQUFBO1lBQUE7WUFBQTtVQUFBLHVDQUFBO1VBQUE7VUFBQSxzQkFBRyxXQUFIO1VBQUE7Y0FBQTtVQUFBLDZCQUE0QixJQUFrQztNQUFhLDBDQUMvRTtVQUFBO1VBQUEsZ0JBQUk7VUFBQTtZQUFBO1lBQUE7Y0FBQTtrQkFBQTtjQUFBO1lBQUE7WUFBQTtVQUFBLHVDQUFBO1VBQUE7VUFBQSxzQkFBRyxXQUFIO1VBQUE7Y0FBQTtVQUFBLDZCQUFpQyxJQUFrQztNQUFrQiwwQ0FDekY7VUFBQTtVQUFBLGdCQUFJLDJDQUNIO1VBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtrQkFBQTtjQUFBO1lBQUE7WUFBQTtVQUFBLHVDQUFBO1VBQUE7VUFBQSxzQkFBRyxXQUFIO1VBQUE7Y0FBQTtVQUFBLDZCQUFzQyxJQUFrQztNQUVwRSwwQ0FDQTtNQUNELHdDQUNBO01BQ047VUFBQTtNQUFxQyx5Q0FDVjtNQUMxQjtVQUFBO2FBQUE7c0NBQUE7VUFBQSxlQUErQix3Q0FDdEI7VUFBQSxVQUNWO1VBQUE7VUFBQSw4QkFBc0MseUNBQ3JDO2lCQUFBO2NBQUEsMERBQUc7VUFBQSx1Q0FBb0M7TUFDL0I7SUFmQTtJQUFILFlBQUcsU0FBSDtJQUE0QjtJQUE1QixZQUE0QixTQUE1QjtJQUNHO0lBQUgsWUFBRyxTQUFIO0lBQWlDO0lBQWpDLFlBQWlDLFNBQWpDO0lBRUE7SUFBSCxZQUFHLFVBQUg7SUFBc0M7SUFBdEMsWUFBc0MsVUFBdEM7SUFRRjs7O0lBbEJxQztJQUF0QyxXQUFzQyxTQUF0QztJQUNLO0lBQUE7SUFNQztJQUFBO0lBQUEsWUFBQSxtQkFBQTtJQUNBO0lBQUE7SUFBQSxZQUFBLG1CQUFBO0lBRUg7SUFBQTtJQUFBLFlBQUEscUJBQUE7Ozs7b0JDWEo7TUFBQTthQUFBOzs7OyJ9
