@@ -48,7 +48,7 @@ export function View_DashboardComponent_Host_0(_l:any):i0.ɵViewDefinition {
   return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'my-dashboard',
       ([] as any[]),(null as any),(null as any),(null as any),View_DashboardComponent_0,
       RenderType_DashboardComponent)),i0.ɵdid(114688,(null as any),0,i3.DashboardComponent,
-      ([] as any[]),(null as any),(null as any))],(_ck,_v) => {
+      [i1.Router],(null as any),(null as any))],(_ck,_v) => {
     _ck(_v,1,0);
   },(null as any));
 }

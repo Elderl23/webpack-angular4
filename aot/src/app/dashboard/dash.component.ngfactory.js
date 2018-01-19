@@ -33,7 +33,7 @@ export function View_DashboardComponent_0(_l) {
     });
 }
 export function View_DashboardComponent_Host_0(_l) {
-    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 1, 'my-dashboard', [], null, null, null, View_DashboardComponent_0, RenderType_DashboardComponent)), i0.ɵdid(114688, null, 0, i3.DashboardComponent, [], null, null)], (_ck, _v) => {
+    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 1, 'my-dashboard', [], null, null, null, View_DashboardComponent_0, RenderType_DashboardComponent)), i0.ɵdid(114688, null, 0, i3.DashboardComponent, [i1.Router], null, null)], (_ck, _v) => {
         _ck(_v, 1, 0);
     }, null);
 }

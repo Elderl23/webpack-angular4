@@ -1,39 +1,34 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { BrowserModule } from '@angular/platform-browser';
 
-//Rutas
-import { routing, appRoutingProviders } from './app.routing';
-
-// Componentes
+// Se carga router-outlet.
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components/home.component';
-import { ErrorComponent } from './components/error.component';
-import { ProductosListComponent } from './components/productos-list.component';
-import { ProductoAddComponent } from './components/producto-add.component';
-import { ProductoDetailComponent } from './components/producto-detail.component';
-import { ProductoEditComponent } from './components/producto-edit.component';
+
+// primera ruta que se carga
+import {routing, appRoutingProviders} from './app.routing';
+
+// Se carga el modulo incial par la primera pantalla
+import { DashboardModule } from "./dashboard/dash.module";
+
+
+import { ContactoModule } from "./contacto/contacto.module";
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HomeComponent,
-    ErrorComponent,
-    ProductosListComponent,
-    ProductoAddComponent,
-    ProductoDetailComponent,
-    ProductoEditComponent
+    AppComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
-    FormsModule,
-    HttpModule,
-    routing
+    routing,
+    DashboardModule,
+    ContactoModule
   ],
+  exports: [],
   providers: [
     appRoutingProviders
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

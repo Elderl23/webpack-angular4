@@ -45,8 +45,7 @@ export const AppModuleNgFactory = i0.ɵcmf(i1.AppModule, [i2.AppComponent], (_l)
         i0.ɵmpd(512, i0.Compiler, i0.Compiler, []), i0.ɵmpd(512, i0.NgModuleFactoryLoader, i0.SystemJsNgModuleLoader, [i0.Compiler, [2, i0.SystemJsNgModuleLoaderConfig]]),
         i0.ɵmpd(1024, i9.ROUTES, () => {
             return [[{ path: 'dashboard', component: i10.DashboardComponent }], [{ path: 'contacto',
-                        component: i11.ContactoComponent }], [{ path: '', redirectTo: 'dashboard',
-                        pathMatch: 'full' }, { path: 'dashboard', component: i10.DashboardComponent }]];
+                        component: i11.ContactoComponent }], [{ path: '', component: i10.DashboardComponent }]];
         }, []), i0.ɵmpd(1024, i9.Router, i9.ɵe, [i0.ApplicationRef, i9.UrlSerializer,
             i9.ChildrenOutletContexts, i6.Location, i0.Injector, i0.NgModuleFactoryLoader,
             i0.Compiler, i9.ROUTES, i9.ROUTER_CONFIGURATION, [2, i9.UrlHandlingStrategy],
